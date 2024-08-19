@@ -11,7 +11,7 @@ You can get the Webhook to know the SSID and private ip for access it via ssh.
 ```
 webhook_url = 'YOUR_WEBHOOK_URL'
 ```
-- In teams-webhook.service , change python path & user name in Pi5
+- In discord/teams-webhook.service , change python path & user name in Pi5
 ```
 ExecStart=python3 /TO/YOUR/PYTHON/FILE/PATH/main.py
 User=YOUR_USER_NAME
@@ -24,18 +24,21 @@ User=YOUR_USER_NAME
 
 ```
 sudo vim /etc/systemd/system/teams-webhook.service
+sudo vim /etc/systemd/system/discord-webhook.service
 ```
 
 - Put it in online service
 
 ```
 sudo systemctl enable teams-webhook.service
+sudo systemctl enable discord-webhook.service
 ```
 
 - Test
 
 ```
 sudo systemctl start teams-webhook.service
+sudo systemctl start discord-webhook.service
 ```
 
 
