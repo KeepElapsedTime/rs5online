@@ -38,5 +38,5 @@ webhook_url = 'YOUR_WEBHOOK_URL'
 
 ssid = get_ssid()
 private_ip = get_private_ip()
-message = f"ResPi5 was open \n SSID: {ssid}\n Private IP Address: {private_ip}"
+message = f"Raspberry Pi5 was open \n SSID: {ssid}\n Private IP Address: {private_ip}"
 send_teams_webhook(webhook_url, message)
