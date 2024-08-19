@@ -1,7 +1,7 @@
-# rs5online
+# rs5online (Raspberry Pi5 Online Notify)
 
 ### Des
-This is a little process for "when you use ResPi5 but forget the cable(micro-HDMI)"
+This is a little process for "when you use Raspberry Pi5 but forget the cable(micro-HDMI)"
 You can get the Webhook to know the SSID and private ip for access it via ssh.
 
 ### How to?
